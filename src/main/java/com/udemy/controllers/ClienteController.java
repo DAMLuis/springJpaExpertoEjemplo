@@ -43,6 +43,12 @@ public class ClienteController {
 		return "form";
 	}
 	
+	/**
+	 * Formulario editar cliente
+	 * @param id
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping(value="/form/{id}")
 	public String editar(@PathVariable(value="id") Long id, Map<String, Object> model) {
 		
