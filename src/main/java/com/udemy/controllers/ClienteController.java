@@ -34,7 +34,11 @@ public class ClienteController {
 		return "listar";
 	}
 	
-	
+	/**
+	 * formulario de crear un cliente
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping(value="/form")
 	public String crear(Map<String, Object> model) {
 		Cliente cliente = new Cliente();
