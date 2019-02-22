@@ -1,0 +1,2 @@
+insert into clientes (id,nombre,apellido,email,create_at) values(1,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(2,'Luis','dd','alumno','2017-08-28');
