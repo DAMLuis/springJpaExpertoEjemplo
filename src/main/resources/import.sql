@@ -1,2 +1,16 @@
 insert into clientes (id,nombre,apellido,email,create_at) values(1,'Andres','guzman','profesor','2017-08-28');
 insert into clientes (id,nombre,apellido,email,create_at) values(2,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(3,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(4,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(5,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(6,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(7,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(8,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(9,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(10,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(11,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(12,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(13,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(14,'Luis','dd','alumno','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(15,'Andres','guzman','profesor','2017-08-28');
+insert into clientes (id,nombre,apellido,email,create_at) values(16,'Luis','dd','alumno','2017-08-28');
