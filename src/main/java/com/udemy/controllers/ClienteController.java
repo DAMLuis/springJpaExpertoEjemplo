@@ -100,6 +100,7 @@ public class ClienteController {
 			model.addAttribute("titulo","formulario de cliente");
 			return "form";
 		}
+		//añadir foto al formulario
 		if(!foto.isEmpty()) {
 			Path directorioRecursosPath = Paths.get("src//main//resources//static/uploads");
 			String rootPath= directorioRecursosPath.toFile().getAbsolutePath();
