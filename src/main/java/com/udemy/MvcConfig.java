@@ -1,8 +1,7 @@
 package com.udemy;
 
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+
 import org.springframework.context.annotation.Configuration;
 
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -12,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class MvcConfig  implements WebMvcConfigurer{
 	
-	private static final Log LOG = LogFactory.getLog(MvcConfig.class);
+	//private static final Log LOG = LogFactory.getLog(MvcConfig.class);
 	
 	
 	/*@Override
