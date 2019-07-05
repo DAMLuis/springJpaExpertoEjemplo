@@ -9,9 +9,10 @@
 		<div class="card bg-light">
 			<div class="card-header" th:text="${titulo}"></div>
 			<div class="card-body">
-				<h4 class="card-title" >
-				 <a  class="btn btn-light btn-xs" th:href="@{'/ver/' + ${factura.cliente.id}}" th:text="'volver'"></a>
-			 </h4>
+				<h4 class="card-title">
+					<a class="btn btn-info btn-xs"
+						th:href="@{'/ver/' + ${factura.cliente.id}}" th:text="'volver'"></a>
+				</h4>
 				<form th:action="@{/factura/form/}" th:object="${factura}"
 					method="post">
 
@@ -34,6 +35,34 @@
 					</div>
 
 					<div class="form-group row">
+						<label for="buscar_producto" class="col-sm-2 col-form-label"
+							th:text="'Buscar producto'"></label>
+						<div class="col-sm-6 ">
+							<input type="text" name="buscar_producto" id="buscar_producto"
+								class="form-control" />
+						</div>
+					</div>
+
+					<table th:replace="factura/plantilla-items :: itemsFactura"></table>
+
+					<table id="cargarItemProductos"
+						class="table table-sm table-striped table-hover">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>Precio</th>
+								<th>Cantidad</th>
+								<th>Total</th>
+								<th>Eliminar</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+
+					</table>
+					<h5> TOTAL <spam class="badge badge-secondary" id="gran_total"> 0 </spam></h5>
+
+					<div class="form-group row">
 						<div class="col-sm-6 ">
 							<input type="submit" th:value="${titulo}"
 								class="btn btn-secondary" />
@@ -50,5 +79,6 @@
 
 
 	<footer th:replace="layout/layout :: footer"> </footer>
+	<script th:replace="factura/js/autocomplete-productos :: javascript"></script>
 </body>
 </html>

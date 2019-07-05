@@ -5,6 +5,7 @@
 <title th:text="${titulo}"></title>
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" th:href="@{/css/jquery-ui.min.css}" />
 </head>
 <body>
 
@@ -35,6 +36,7 @@
 	<div class="container"></div>
 	<footer th:fragment="footer" class="container">
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script th:src="@{/js/jquery-ui.min.js}" ></script>
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 		<script

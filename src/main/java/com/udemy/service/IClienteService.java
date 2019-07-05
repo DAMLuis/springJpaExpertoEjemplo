@@ -6,6 +6,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import com.udemy.entity.Cliente;
+import com.udemy.entity.Factura;
+import com.udemy.entity.Producto;
 
 public interface IClienteService {
 	
@@ -19,5 +21,8 @@ public interface IClienteService {
 	
 	public void delete(Long id);
 	
+	public List<Producto> findByNombre(String term);
+	
+	public void saveFactura(Factura factura);
 
 }
